@@ -1,0 +1,6 @@
+google-cloud-aiplatform[adk,agent_engines]
+google-cloud-firestore
+google-auth
+requests
+python-dotenv
+google-cloud-documentai
