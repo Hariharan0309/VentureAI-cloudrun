@@ -51,7 +51,7 @@ deploy_to_cloud_run() {
     --region="$GCP_REGION" \
     --project="$GCP_PROJECT_ID" \
     --allow-unauthenticated \
-    --set-env-vars="GCS_BUCKET_NAME=valued-mediator-461216-k7.firebasestorage.app,PROJECT_ID=valued-mediator-461216-k7,LOCATION=us-central1,DATABASE=ventureai,GOOGLE_API_KEY=AIzaSyDLQ_sxIz7TUUdHnmcotLlXwBD_PyVyFOQ" \
+    --set-env-vars="GCS_BUCKET_NAME=valued-mediator-461216-k7.firebasestorage.app,PROJECT_ID=valued-mediator-461216-k7,LOCATION=us-central1,DATABASE=ventureai,GOOGLE_API_KEY=YOUR_API_KEY" \
     --quiet
     
   echo "--- Deployment complete ---"
